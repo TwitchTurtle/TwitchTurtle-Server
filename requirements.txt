@@ -1,0 +1,17 @@
+certifi==2018.8.13
+chardet==3.0.4
+click==6.7
+Flask==0.12.2
+Flask-HTTPAuth==3.2.3
+Flask-SQLAlchemy==2.2
+idna==2.7
+itsdangerous==0.24
+Jinja2==2.9.6
+MarkupSafe==1.0
+passlib==1.7.1
+requests==2.19.1
+six==1.11.0
+SQLAlchemy==1.1.11
+SQLAlchemy-Utils==0.33.5
+urllib3==1.23
+Werkzeug==0.12.2

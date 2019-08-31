@@ -1,0 +1,57 @@
+{
+  "current_env": "TEST",
+  "PROD": {
+
+    "default-name":"Turtler",
+    "default-message":"No message provided.",
+    "coinName":"TurtleCoin",
+    "ticker":"TRTL",
+    "addressLength":"99",
+    "intAddrLength":"183",
+
+    "coinmarketcapTicker":"2958",
+
+    "debug":false,
+
+    "turtle-service":{
+      "rpc_password": "",
+      "rpc_host": "localhost",
+      "rpc_port": "8070"
+    },
+    "flask":{
+      "SECRET_KEY": ""
+    },
+    "streamLabs":{
+      "client_id":"",
+      "client_secret":"",
+      "redirect_uri":"https://trtl.tv/dashboard/"
+    }
+
+  },
+  "TEST": {
+    "default-name":"Tester",
+    "default-message":"No message provided.",
+    "coinName":"TESTCOIN",
+    "ticker":"TEST",
+    "addressLength":"99",
+    "intAddrLength":"183",
+
+    "coinmarketcapTicker":"2958",
+
+    "debug":true,
+
+    "turtle-service":{
+      "rpc_password": "",
+      "rpc_host": "localhost",
+      "rpc_port": "8071"
+    },
+    "flask":{
+      "SECRET_KEY": ""
+    },
+    "streamLabs":{
+      "client_id":"",
+      "client_secret":"",
+      "redirect_uri":"http://localhost"
+    }
+  }
+}
